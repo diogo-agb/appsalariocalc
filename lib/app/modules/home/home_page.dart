@@ -5,7 +5,7 @@ import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
-import '../services/ad_helper.dart';
+import '../gitignore/ad_helper.dart';
 import 'home_store.dart';
 
 class HomePage extends StatefulWidget {
