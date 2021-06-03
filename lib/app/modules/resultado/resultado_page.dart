@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:intl/intl.dart';
 
+import '../gitignore/ad_helper.dart';
 import '../home/home_store.dart';
-import '../services/ad_helper.dart';
 import 'resultado_store.dart';
 
 class ResultadoPage extends StatefulWidget {
