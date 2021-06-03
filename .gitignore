@@ -47,6 +47,3 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-
-# Ad service key
-/lib/app/modules/services/ad_helper.dart
