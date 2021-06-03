@@ -47,3 +47,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Ad Helper
+lib/app/modules/ignore/ad_helper.dart
+lib/app/modules/ignore/AndroidManifest.xml
