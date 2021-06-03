@@ -22,7 +22,7 @@ class _HomePageState extends ModularState<HomePage, HomeStore> {
     store.ad = BannerAd(
       adUnitId: AdHelper.bannerAdUnitId,
       request: AdRequest(),
-      size: AdSize.banner,
+      size: AdSize.largeBanner,
       listener: BannerAdListener(
         onAdLoaded: (_) {
           store.setIsLoaded(true);

@@ -27,7 +27,7 @@ class ResultadoPageState extends State<ResultadoPage> {
     store.ad = BannerAd(
       adUnitId: AdHelper.bannerAdUnitId,
       request: AdRequest(),
-      size: AdSize.banner,
+      size: AdSize.largeBanner,
       listener: BannerAdListener(
         onAdLoaded: (_) {
           store.setIsLoaded(true);
@@ -52,6 +52,8 @@ class ResultadoPageState extends State<ResultadoPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
+        centerTitle: true,
+        leading: Container(),
       ),
       body: SingleChildScrollView(
         child: Observer(

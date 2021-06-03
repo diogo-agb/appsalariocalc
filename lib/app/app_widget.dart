@@ -7,7 +7,10 @@ class AppWidget extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'SalarioCalc APP',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        fontFamily: 'Montserrat',
+      ),
       initialRoute: Modular.initialRoute,
     ).modular();
   }
