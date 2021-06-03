@@ -49,5 +49,5 @@ app.*.map.json
 /android/app/release
 
 # Ad Helper
-lib/app/modules/ignore/ad_helper.dart
-lib/app/modules/ignore/AndroidManifest.xml
+lib/app/modules/gitignore/ad_helper.dart
+lib/app/modules/gitignore/AndroidManifest.xml
